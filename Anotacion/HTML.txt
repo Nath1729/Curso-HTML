@@ -1,0 +1,250 @@
+Tipos de Etiquetas, Atributos, Propiedades, Funciones y Valores.
+<head>
+	<html>: Es la que se encarga de llevar tanto la cabeza (head) como el cuerpo (body) de nuestro archivo HTML. Es muy importante -por cuestion de
+posicionamiento de contenido- especificar el atributo del idioma para el cual vamos a escribir el contenido, que en este caso es el atributo " lang="" ".
+
+	<!DOCTYPE html>: Es para avisar al codigo que se utilizará la ultima version de HTML.
+
+	<meta>: meta viene de metadato(metainformacion), sirve para aportar informacion sobre el documento. Y es contenido del head.
+Los metadatos llevan atributos que deben ser indicados por el autor.
+
+	<meta charset="UTF-8">: charset="UTF-8" Es el juego de caracteres universal estandar. Por ejemplo, para colocar acentos (en español) se utiliza
+el atributo " charset="UTF-8" ".
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">: El atributo http-equiv="X-UA-Compatible" content="IE=edge", practicamente le esta diciendo
+que haga el documento HTML sea para Internet Explorer igual con Microsoft edge (no es tan necesario).
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">: Esta meta etiqueta es muy importante ya que le dice a los dispositivos como se va a
+adaptar el contenido de la página.
+		viewport: Es la sona visible del navegador. Donde se renderiza el contenido.
+		content: Es el contenido al que hace referencia.
+		"width=divice-width, initial-scale=1.0": Practicamente dice que, el ancho(width) del documento HTML, se va a adaptar(divice) al ancho 
+del dispositivo. Y le está diciendo que la escala inicial(initial-scale) a la que va a empezar el contenido va a ser a partir de la escala 1.0 (1).
+
+	<title>: Se utiliza para crear el titulo de la página. El titulo de la pagina siempre tiene que tener entre 55 y 65 caracteres.
+
+	<meta name="description" content="">: La meta-descripcion se utiliza para la descripcion de la página. En el atributo content se coloca la descripcion.
+La descripcion de la pagina no debe pasar de 165 caracteres.
+</head>
+
+<body> Tabla Periodica de los elmentos HTML.
+	<p>: Es para crear un parrafo.
+
+Encabezados.
+	h1-h6:Los "h" son los encabezados o titulos de las páginas. En el caso del h1, solo se puede utilizar una ves y como titulo.
+
+Etiquetas de Texto Basicas
+	<b>: Coloca las Palabras en negritas.
+	<i>: Coloca las palabras inclinadas.
+	<u>: Subraya la palabra.
+	<sup>: Crea un super indice.
+	<sub>: Crea un Subindice.
+	<mark>: Es para marcartexto.
+	<small>: Es para colocar las letras pequeñas, como los de los contratos.
+
+Etiquetas de Texto Semánticas
+	<strong>: Sirve para dar importancia al texto.
+	<em>: Sirve para dar énfasis.
+	<blockquote>: Permite hacer una referencia de algo que alguien escribio. Se puede acompañar con la etiqueta <cite>.
+	<cite>: Sirve para colocar el nombre del autor de la cita textual.
+	<time>: Sirve para expresarnos con siertos tiempos.
+
+Etiquetas de Salto
+	<br>: Es para generar un salto de linea(Esta etiqueta no se sierra). Es como si dieramos un ENTER en word.
+	<hr>: Es utilizada para dividir contenido de manera sémantica(Esta etiqueta no se sierra). Divide los bloques o secciones del contenido
+de la página.
+
+Etiquetas de Formateo o Pre-Formateo
+	<pre>: Es para que respete el orden en que estas escribiendo el contenido o texto.
+Ejemplo: -Tareas por Hacer.
+	   -HTML.
+	     -Terminar de ver el curso.
+	     -Practicar 
+	   -CSS
+	     -Terminar de ver el curso.
+	     -Practicar.
+Así como se escribio, así saldrá en la página.
+	<code>: Hace que el texto esté en formato de código.
+		Un dato mas: Para escribir en una página una etiqueta, y el editor no lo tome como etiqueta,
+se tendria que utilizar el caracter especial &lt;(para pico izquierdo) y &gt;(para pico derecho).
+
+Etiquetas Semánticas Estructurales (Son las que nos ayudan a enmaquetar nuestra página)
+	<div>: Es una etiqueta contenedora sin semántica(Sirve para dividir).
+	<header>: Es la cabecera de un sitio web o de una sección.
+	<main>: Define la sección principal del documento, sólo puede existir una estiqueta "mian" por documento.
+	<footer>: El "footer" es el pié de página del sitio web o de una sección.
+	<nav>: Representa una navegación. Es decir, un conjunto de enlaces o menú de navegación.
+	<article>: Es un articulo. Representa una sección autocontenido (que por sí sola se explica).
+	<aside>: Representa contenido complementario o secundario. Por ejemplo en un bloc puede a ver una sección de articulos
+relacionados, es allí donde se utiliza la etiqueta aside. Tambien es valido utilizarlo como contenedor de publicidad.
+	<section>: Es una sección de contenido genérico.
+	<address>: Representa una dirección física y información de contacto.
+
+Etiquetas de Block VS Inline
+	<div>: Es un bloque generico de contenido. div es la etiqueta de bloque por excelencia(No tiene semántica).
+Una etiqueta de bloque es aquella que genera un salto de linea con sus etiquetas hermanas.
+	<span>: Es un contenedor generico en linea. span es la etiqueta de linea por excelencia(No tiene semántica).
+Una etiqueta de linea, sólo ocupa el espacio necesario que tiene su contenido.
+
+Estilos CSS en HTML
+	En HTML hay 3 formas de crear estilos en cascada(CSS).
+1. La primera forma es usando el atributo " style="" ".
+2. La segunda opción es abrir una etiqueta " <style> " en el head.
+3. Y la 3ra forma es desde un archivo CSS. Es muy importante que el atributo "rel" tenga el valor "stylesheet".
+
+Script en HTML
+	Para crear un Script en HTML hay 3 formas. Las etiquetas de script deben ir siempre al final de la de etiqueta body.
+1. La primera forma es usando la etiqueta " <script, /script> ". 
+2. Otra opción es hacer lo mismo que con css, un archivo externo. Para agregar el archivo JS al archivo HTML se utiliza la 
+etiqueta " script " y se le agrega el atributo " src="" ".
+
+Imagenes en HTML
+	Para agregar una imagen en HTML se usa la etiqueta <img>, se coloca el atributo " src="(ruta de la imagen)" " y el atributo " alt="(nombre)" ".
+	Los diferentes tipos de imagenes son .jpg .png .gif y .svg .
+
+Vectores
+	Los vectores son las imagenes que, no importa si agrandamos o minimizamos igual tendra la misma calidad(tambien puede considerarse como iconos).
+Para agregar un svg es el mismo procedimiento que las demas imagenes.
+
+Figuras
+	La figura es un contenido semántico. Para ejecutarlo se utiliza la etiqueta <figure>, dentro va <img>.
+
+Listas Ordenadas
+	<ol>: Significa lista ordenada. Dentro de esta etiqueta se usa la etiqueta "<li>" y dentro de la etiqueta "li"
+va el texto. A la etiqueta "ol" se le puede agregar el atributo "start", con eso le decimos que empiece desde el numero que nosotro queramos.
+
+Listas Desordenadas
+	<ul>: A diferencia de la etiqueta de lista ordenada, esta no contiene numeros ni se le puede agregar letras. Solo signos o Caracteres.
+
+Listas de Definición
+	Se utiliza 3 elementos.
+<dl>: dl es Lista de Definición.
+<dt>: dt Es el termino que queremos Definir 
+<dd>: dd es el dato que queremos definir(alli es donde va el contenido).
+
+Tablas
+	Son tablas como excel.
+	<table>: Es la que da inicio a la tabla.
+	<tr>: tr es table-row(fila de tabla).
+	<td>: td son las celdas. La etiqueta td se le puede agregar el atributo " rowspan="2" ", que sirve para que el texto ocupe el numero de celdas,
+en vertical, que queramos.
+	<thead>: Es Cabeza-Tabla.
+	<th>: Es el encabezado de la tabla(es donde va el texto). La etiqueta th e le puede agregar el atributo " colspan="3" ", que sirve para que el
+texto ocupe el numero de celdas, en horizontal, que queramos.
+	<tbody>: Es el cuerpo de la tabla.
+	<tfoot>: Es el final de la tabla.
+
+Enlaces Externos
+	<a> La etiqueta a se usa para los enlaces a otras paginas. Se le puede agregar el atributo " target="" " y el valor " blank " para redieccionar en otra pestaña.
+
+Enlaces Internos
+	Los enlaces internos quiere decir que te dirige a una parte de la misma página.
+Para lograrlo se utiliza la etiqueta "a" se le coloca el mismo nombre de la página mas 
+un numeral(#)y el nombre del id. Ejemplo en archivo html.
+	Para que el scroll se mueva con lentitud es necesario que la etiqueta html tenga, con CSS, la propiedad "scroll-behavior" y el valor
+smooth. "scroll-behavior:smooth;".
+
+Enlaces y Protocolos Especiales
+	Los enlaces de protocolos especiales son lo enlaces especiales que dirigen a otras aplicaciones. Un ejemplo es el wasap.
+	Para reedirigir a enviar un mensaje de correo se utiliza el valor "mailto:" + el correo.
+	Para maracar un Numero tlf se utiliza el valor "tel:" + el código de pais.
+	Para WhatsApp hay que copiar la url + el valor "phone=58184908210394", opcional se le puede colocar el valor "text=" para enviar un mensaje.
+
+Elementos Interactivos.
+	<button>: Es un boton. Se le puede agregar el atributo onclick(activar cuando cliqueas)+alert para mandar una alerta cundo se preciona el boton(Esto
+es practicamente JS)
+	<details>: Es para generar un acordeon. + summary(Titulo) y luego se puede colocar una etiqueta semántica como un div, article, etc.
+Se le puede agregar el atributo "open" para que cuando cargue la página se abra automaticamente.
+	<dialog>: Para crear una ventana modal se utiliza esta etiqueta(esta etiqueta es nueva, aun en fase experimental).
+Para que se vea tiene que tener el atributo "open"
+
+Audio y Video
+	<audio>: Es para colocar el audio. Es necesario agregar el atributo "controls" para que se vizualice el audio en el navegador.
+
+Atributos de Audio:
+	autoplay: Es para que se resprodusca el audio al cargar la página. Puede que en navegadores no funcione porque el usuario tiene
+que dar el permiso. Puede que en dispositivos moviles funcionen algunos atributos y en escritorio no.
+	loop: Es para que cuando acabe el audio, vuelva a reproducirse.
+	muted: Es para que el audio aparesca en la página sin volumen.
+	preload: Es para que el audio empieze a cargarse sin reproducirse. Es muy importante y se debe colocar en todos los audios y video(Es como youtube).
+
+	<video>: Es para poner el video. Esta etiqueta tiene los mismos atributos que audio. 
+	poster: Es el atributo que se le coloca para ponerle la miniatura.
+
+Iframes
+	<iframes>: Es para meter diferentes archivos de texto en la pagina. Un ejemplo es meter otra página en la página.
+Tambien es posible archivos .pdf .docx etc.
+
+Formularios
+	Son los input.
+	<input>: Son cajas de formularios, texto, numeros, contraseña, etc(depende del atributo que le pongamos).
+	Atributos
+		type: Que es lo que va a colocar o tipear.
+		value: Es para colocarle el texto al boton.
+		multiple: Es para seleccionar mas archivos, Etc.
+	Valores
+		checkbox: Es la capsulita del ganchito.
+		date: Es el calendario.
+		color: Es el color.
+		button: Es un boton.
+		radio: Es el circulo con gancho.
+		file: Es para cargar algun archivo. Solo permite selecciona un archivo. 
+		hidden: Es un input oculto.
+		email: Es para enviar un correo.
+
+Atributos de inputs y Formularios
+	readonly: Solo lectura(buleano) + value, es igual a un formulario con un texto o numero.
+	disable: Muestra la opción desabilitada(No se puede usar).
+	placeholder: Es para que salga un texto en el input y al seleccionarlo, desaparecer el texto.
+	name: Es el nombre de variable o valor de formulario que se va a enviar para cada uno de los inputs.
+		Hay 2 formas de envio de formularios.
+			GET:  Para ello se coloca el atriburo " method " + el valor " GET ". El metodo GET es el 
+		metodo por defecto de los formularios.
+			POST: Es igual que GET pero lo hace de manera oculta.
+	autocomplete: Es para autocompletar la oracion en los inputs de la página.
+	<label>: Es un control de formulario(inputs). Son importantes para los inputs.
+	required: Obliga al usuario completar el campo o llenar el input.
+	
+Selects, Radio y Checkboxs
+	<select>: Crea una selección.
+	<option>: Crea una opción.
+	checkbox: Permite quitar y poner el ganchito.
+
+Formulario de Contacto
+	Se utiliza el form, input, los atributos y valores. Mas informaciòn en el editor.
+
+Data-Attributes
+	Son datos de atributos. Son atributos formados por el programador.
+
+Metaetiquetas para SEO y Móviles
+	Ayudan al posicionamiento de los motores de busqueda(Las metaetiquetas van en la cabezera del archivo html[head]).
+	<link>: Nos ayuda a obtener un buen SEO. En el "rel" se le coloca el valor "canonical". En el href se coloca la url
+canonica de nuestro sitio web.
+	URL-Canonical: Es para que los motores de busqueda sepan cual es la url original, la autentica. Es un metodo que se utiliza
+en el mundo del SEO, para evitar el contenido duplicado(El contenido duplicado es cuando dos url son muy similares).
+
+Icono para las páginas y tlfnos
+	Se utiliza una imagen en formato .png, mientras mas resolución mejor. 
+	<link>: Se utiliza la etiqueta link, pero al atributo "rel" se le coloca el valor "icon". Y en el href la ruta de la imagen .png.
+	<meta-theme-color>: meta:theme-color mas el atributo content, podemos cambiar el color de la barra de busqueda en tlfno.
+
+Metaetiquetas para redes sociales
+	Es para publicar en las redes sociales la página web.
+	video y editor.
+
+Accesibilidad a la web
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

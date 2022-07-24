@@ -1,0 +1,14 @@
+.div2 {
+  width: 250px;
+  height: 250px;
+  background-color: navy;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.div2:hover {
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+  border-radius: 0%;
+}

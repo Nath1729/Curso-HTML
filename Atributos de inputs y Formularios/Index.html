@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>Ejemplo de Atributos de inputs y Formularios</h3>
+  <input type="text" value="No pudes escribir, solo leer :v" readonly>
+  <input type="text" value="No pudes escribir, solo leer :v" readonly disabled>
+  <input type="text" placeholder="Escribe algo rependejo">
+  <hr>
+  <h3>Ejemplo de Formulario con inputs</h3>
+  <form action="https://iaosjdoiajsodi.com" method="GET">
+    <input type="text" name="usuario" placeholder="Usuario">
+    <br>
+    <input type="password" name="password" placeholder="Contraseña">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+  </form>
+  <hr>
+  <form action="https://iaosjdoiajsodi.com" method="POST" autocomplete="off">
+    <label for="">Escribe tu Usuario</label><br>
+    <input type="text" name="usuario" placeholder="Usuario">
+    <br>
+    <label for="">Escribe tu Contraseña</label><br>
+    <input type="password" name="password" placeholder="Contraseña">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+  </form>
+  <hr>
+  <form action="https://iaosjdoiajsodi.com" method="POST" autocomplete="off">
+    <label for="usuario">Escribe tu Usuario</label><br>
+    <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+    <br>
+    <label for="password">Escribe tu Contraseña</label><br>
+    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+  </form>
+  <hr>
+  <form action="https://iaosjdoiajsodi.com" method="POST" autocomplete="off">
+    <label for="usuario">Escribe tu Usuario</label><br>
+    <input type="text" name="usuario" id="usuario" placeholder="Usuario" pattern="^[A-Za-z]+$"
+      title="Solo se permite letras mayusculas y minusculas" required>
+    <br>
+    <label for="password">Escribe tu Contraseña</label><br>
+    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+  </form>
+</body>
+
+</html>

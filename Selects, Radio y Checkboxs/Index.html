@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>Ejemplo de Selects, Radio y Checkboxs</h3>
+  <form>
+    <p>Elige tu idioma</p>
+    <select name="idioma">
+      <option value="">Elige una opción</option>
+      <option value="es">Español</option>
+      <option value="it">Italiano</option>
+      <option value="en">Inglés</option>
+      <option value="pt">Portugueés</option>
+      <option value="fr">Francés</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <br>
+  <form>
+    <p>Elige tu idioma</p>
+    <select name="idioma" multiple>
+      <option value="">Elige una opción</option>
+      <option value="es">Español</option>
+      <option value="it">Italiano</option>
+      <option value="en">Inglés</option>
+      <option value="pt">Portugueés</option>
+      <option value="fr">Francés</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <br>
+  <form>
+    <p>Elige tu idioma</p>
+    <select name="idioma" required>
+      <option value="">Elige una opción</option>
+      <option value="es">Español</option>
+      <option value="it">Italiano</option>
+      <option value="en">Inglés</option>
+      <option value="pt">Portugueés</option>
+      <option value="fr">Francés</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <br>
+  <form>
+    <p>Elije tu lenguaje de programación preferido</p>
+    <input type="radio" name="lenguaje" id="radio-js" value="js">
+    <label for="radio-js">JavaScript</label><br>
+    <input type="radio" name="lenguaje" id="radio-php" value="php">
+    <label for="radio-php">PHP</label><br>
+    <input type="radio" name="lenguaje" id="radio-nodejs" value="nodejs">
+    <label for="radio-nodejs">NodeJS</label><br>
+    <input type="radio" name="lenguaje" id="radio-sql" value="sql">
+    <label for="radio-sql">SQL</label><br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <form>
+    <p>Elije tu lenguaje de programación preferido</p>
+    <input type="radio" name="lenguaje-js" id="radio-js" value="js">
+    <label for="radio-js">JavaScript</label><br>
+    <input type="radio" name="lenguaje-php" id="radio-php" value="php">
+    <label for="radio-php">PHP</label><br>
+    <input type="radio" name="lenguaje-nodejs" id="radio-nodejs" value="nodejs">
+    <label for="radio-nodejs">NodeJS</label><br>
+    <input type="radio" name="lenguaje-sql" id="radio-sql" value="sql">
+    <label for="radio-sql">SQL</label><br>
+    <input type="submit">
+    <input type="reset"><br>
+    <p>Elige tus intereses</p>
+    <label>
+      <input type="checkbox" name="intereses" value="Deportes">
+      Deportes
+    </label>
+    <label>
+      <input type="checkbox" name="intereses" value="Finanzas">
+      Finanzas
+    </label>
+    <label>
+      <input type="checkbox" name="intereses" value="Salud">
+      Salud
+    </label>
+    <label>
+      <input type="checkbox" name="intereses" value="Politica">
+      Política
+    </label>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>Ejemplo de Formularios de Contacto</h3>
+  <form action="https://formsubmit.co/Natanaelmora16@gmail.com" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+      title="Nombre sólo acepta letras y espacios en blanco" required> <br>
+    <input type="email" name="correo" placeholder="Correo Electronico" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+      title="Formato de correo invalido" required> <br>
+    <textarea name="comentarios" cols="30" rows="10" required></textarea> <br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+</body>
+
+</html>

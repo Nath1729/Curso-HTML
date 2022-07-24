@@ -1,0 +1,330 @@
+body {
+  text-transform: uppercase !important;
+  margin: 0;
+}
+
+.div-1 {
+  height: 100px;
+  width: 100%;
+}
+
+.content-2 {
+  background-color: transparent;
+  background-image: url(https://www.graficosmexico.com/wp-content/uploads/2020/11/fondo-principal-graficos-mexicos.png);
+}
+
+.toda-la-cabezera {
+  width: 100%;
+  margin-left: 300px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.span-logo {
+  display: inline-block;
+  position: relative;
+}
+
+.img-logo {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedor-redes {
+  display: inline-block;
+}
+
+.ul-redes {
+  display: inline;
+}
+
+.menu,
+.menu-cabezera {
+  display: inline-block;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.contenedor-redes {
+  position: absolute;
+  padding-top: 39px;
+  padding-left: 90px;
+}
+
+.menu {
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 25px;
+}
+
+.li-redes {
+  display: inline;
+  list-style-type: none;
+  padding: 3px;
+}
+
+.ul-menu-nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.ul-menu-nav li:first-child ::after {
+  margin-right: 30px;
+}
+
+.ul-menu-nav li:first-child a {
+  color: #808080;
+  width: 75px;
+  text-align: center;
+}
+
+.ul-menu-nav li a {
+  opacity: 1;
+}
+
+.ul-menu-nav li a {
+  font-family: "Kenyan Coffee Regular", Helvetica, Arial, Lucida, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.ul-menu-nav li:first-child a:hover {
+  color: #c40d00;
+  background-color: #fff;
+}
+
+.ul-menu-nav li a {
+  opacity: 1;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.ul-menu-nav li a:hover {
+  color: #c40d00;
+  background-color: #fff;
+}
+
+.ul-menu-nav li:hover {
+  transition: all 0.4s;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+}
+
+.flecha-packs {
+  height: 12px;
+  width: 7px;
+}
+
+.enlaces-redes::after {
+  height: 30px;
+  width: 30px;
+}
+
+.img-redes-facebook {
+  height: 18px;
+  width: 18px;
+}
+
+.img-redes-twitter {
+  height: 18px;
+  width: 18px;
+}
+
+.img-redes-in {
+  height: 18px;
+  width: 18px;
+}
+
+.img-redes-instagram {
+  height: 18px;
+  width: 18px;
+}
+
+.img-redes-youtube {
+  height: 18px;
+  width: 18px;
+}
+
+.contenedor-articulor {
+  display: inline-block;
+}
+
+.caja-despues-de-articulo {
+  padding-top: 80px;
+  padding-bottom: 78px;
+  position: relative;
+}
+
+.contenido {
+  display: inline-block;
+  width: 100%;
+  padding-top: 120px;
+  padding-left: 320px;
+}
+
+.contenedor-texto-left1,
+.contenedor-texto-left {
+  display: inline-block;
+}
+
+.contenedor-texto-left div {
+  display: inline-block;
+}
+
+.contenedor-img-center {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 45px;
+  display: block;
+  font-family: "Kenyan Coffee Regular", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.span-pack {
+  display: block;
+  color: #3f8702;
+}
+
+p {
+  margin: 0;
+  color: #230b00 !important;
+}
+
+.boton-comprar {
+  display: block !important;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.boton {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.boton {
+  letter-spacing: 4px;
+  font-family: "Kinship Sans 300", Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 200 !important;
+  color: #ffffffff;
+}
+
+.boton {
+  font-size: 2.5em;
+  background-color: #c40d00;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.boton:hover {
+  background-color: #3f8702;
+}
+
+.div-pack {
+  color: #bdc3cb !important;
+  font-size: 108px;
+}
+
+.div-pack,
+.div-pack div {
+  display: block !important;
+}
+
+.div-01 {
+  color: #bdc3cb !important;
+  font-size: 150px;
+  margin-left: 75px;
+}
+
+.contenedor-img-center {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.contenedor-text-right {
+  display: inline-block;
+  width: 17%;
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 35px;
+}
+
+.h2-500 {
+  font-size: 40px;
+  font-family: "Kenyan Coffee Regular", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  color: #ffffff !important;
+}
+
+.p1 {
+  padding-bottom: 1em;
+  color: #ffffffff !important;
+}
+
+.p2 {
+  color: #ffffffff !important;
+}
+
+.div-detalles {
+  padding-top: 50px;
+}
+
+.a-detalles {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.a-siguiente {
+  font-size: 20px;
+  color: #ffffff !important;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.46);
+  text-decoration: none;
+}
+
+.div-siguiente {
+  position: absolute;
+  transform: rotate(90deg);
+  display: inline-block;
+}
+
+.div-siguiente {
+  padding-right: 20em;
+  padding-bottom: 300px;
+}
+
+.div-precio {
+  padding-top: 150px;
+}
+
+.h4-por {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #ffffff !important;
+  font-size: 35px;
+}
+
+.p-100 {
+  font-size: 70px;
+  color: #ffffff !important;
+  display: inline-block;
+}
+
+.span-mxn {
+  font-size: 26px;
+}
+
